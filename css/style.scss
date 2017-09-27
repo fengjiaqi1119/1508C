@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: .12rem;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+}
+.header{
+  height: .4rem;
+  display: -webkit-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section{
+  background-color: #818d9b;
+  flex: 1;
+  overflow-y: scroll;
+  .box{
+    background-color: white;
+    width: 94%;
+    height: 4.22rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    border-radius: 5px;
+    .img{
+      width: 1.28rem;
+      height: .4rem;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
